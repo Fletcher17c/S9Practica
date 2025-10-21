@@ -1,0 +1,28 @@
+package Entities;
+
+import lombok.*;
+import jakarta.persistence.*;
+import java.time.LocalDate;
+import java.util.ArrayList;
+import java.util.List;
+
+
+
+@Entity
+@Table(name = "categorias")
+@Getter
+@Setter
+@NamedQueries({
+        @NamedQuery(name = "categorias.All",
+                    query = "select c from Categoria c"
+        )
+})
+public class Categoria {
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    private Long id;
+
+    @Column(name="nombre_categoria", length = 100, nullable = false)
+    private String nombre;
+
+}
