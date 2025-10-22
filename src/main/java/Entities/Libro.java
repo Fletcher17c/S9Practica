@@ -22,11 +22,11 @@ public class Libro {
 
     private int añoPub;
 
-    @ManyToOne(fetch = FetchType.LAZY)
-    @JoinColumn(name="autor_id")
+    @ManyToOne(fetch = FetchType.EAGER)
+    @JoinColumn(name = "autor_id")
     private Autor autor;
 
-    @ManyToOne(fetch = FetchType.LAZY)
-    @JoinColumn(name="categoria_id")
+    @ManyToOne(fetch = FetchType.EAGER)
+    @JoinColumn(name = "categoria_id")
     private Categoria categoria;
 }

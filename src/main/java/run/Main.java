@@ -119,7 +119,7 @@ public class Main {
         listarAutores();
         editarAutor();
         listarAutores();
-        eliminarAutor();
+        //eliminarAutor();
         listarAutores();
 
         // === CATEGORÍAS ===
@@ -128,7 +128,7 @@ public class Main {
         listarCategorias();
         editarCategoria();
         listarCategorias();
-        eliminarCategoria();
+       // eliminarCategoria();
         listarCategorias();
 
         // === LIBROS ===
@@ -137,7 +137,7 @@ public class Main {
         listarLibros();
         editarLibro();
         listarLibros();
-        eliminarLibro();
+        //eliminarLibro();
         listarLibros();
     }
 }
