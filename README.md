@@ -1,5 +1,6 @@
 # Class Project For Basic Terminal CRUD
 
+Le intente hacer un readme, no pude
 ## Entities: 
 Autor 
 Libro
