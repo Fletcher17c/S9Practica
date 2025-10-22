@@ -7,8 +7,7 @@ Categoria
 
 ## DB config: 
 To Do: sql init script
-"""
-            <property name="jakarta.persistence.jdbc.url" value="jdbc:postgresql://localhost:5432/bibliodb"/>
-            <property name="jakarta.persistence.jdbc.user" value="postgres"/>
-            <property name="jakarta.persistence.jdbc.password" value="yourpassword"/>
-"""
+url" value="jdbc:postgresql://localhost:5432/bibliodb"\
+name="jakarta.persistence.jdbc.user" value="postgres"
+name="jakarta.persistence.jdbc.password" value="yourpassword"
+
