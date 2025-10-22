@@ -1,8 +1,6 @@
 package services.dao;
 
-import java.io.Serializable;
 import java.util.List;
-import java.util.Objects;
 
 import Utils.JPAConexion;
 import jakarta.persistence.EntityManager;
